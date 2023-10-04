@@ -14,6 +14,11 @@
 
 
 header {
+    margin-top:0;
+    border-bottom: solid 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   height: 10vh;
   width: 100%;
 }
@@ -305,7 +310,7 @@ a {
     stroke-width: 8px;
     stroke: #00fffc;
   }
-  
+
   @keyframes draw {
     0% {
       stroke-dasharray: 140 540;
