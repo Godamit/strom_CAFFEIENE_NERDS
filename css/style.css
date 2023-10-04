@@ -352,25 +352,28 @@ a {
     flex:1 1 45rem;
     width: 100%;
     object-fit: cover;
+    padding-top: 10px;
 }
 
 .contact .row form{
     flex:1 1 45rem;
-    padding:5rem 2rem;
+    padding:2rem 2rem;
     text-align: center;
 }
 
 .contact .row form h3{
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:#fff;
+    align-self: center;
 }
 
 .contact .row form .inputBox{
     display: flex;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background:var(--bg);
     border:var(--border);
 }
@@ -382,16 +385,22 @@ a {
 }
 
 .contact .row form .inputBox input{
-    width: 100%;
+    /* width: 100%; */
     border: solid 2px white;
-    padding:2rem;
-    font-size: 1.7rem;
+    border-radius: 20px;
+    padding:1rem;
+    font-size: 1.2rem;
     color:#fff;
     text-transform: none;
     background:none;
 }
 
-.btn{
-    height: 56px;
-    width: 70px;
+#btn {
+    height: 40px;
+    width: 85px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+  background-color: cyan;
 }
