@@ -285,10 +285,9 @@ footer {
 }
 img {
 
-    /* position: absolute; */
-  /* height:100%; */
-  width:100vb;
-
+    /* position: absolute;
+  height:100%;
+  width:100vb; */
   
   cursor: pointer;
 }
@@ -409,41 +408,3 @@ a{
 #btn:hover{
   background-color: cyan;
 }
-
-/* Style the blog posts */
-.blog-post {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-}
-
-/* Style images within blog posts */
-.blog-post img {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-}
-
-/* Style the blog post titles */
-.blog-post h2 {
-    color: #333;
-}
-
-/* Style the blog post content */
-.blog-post p {
-    color: #555;
-}
-
-/* Style the footer */
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
-
-
