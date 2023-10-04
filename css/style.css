@@ -410,12 +410,38 @@ a{
   background-color: cyan;
 }
 
-image{
-    width:100vb;
-
+/* Style the blog posts */
+.blog-post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
 }
 
-text{
-    width:100vb;
-
+/* Style images within blog posts */
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
+
+/* Style the blog post titles */
+.blog-post h2 {
+    color: #333;
+}
+
+/* Style the blog post content */
+.blog-post p {
+    color: #555;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
