@@ -7,7 +7,8 @@ body {
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -17,16 +18,18 @@ body {
 }
 
 
-/* header{
+header{
     height: 7vh;
     width: 100%;
-    background-color: black;
+    margin-top: 5px;
 
-} */
+}
 
 #s1{
+
     width: 100%;
-    background-color:green ;
+    
+    background-color:#004225;
     height: 100vh;
 }
 
@@ -38,6 +41,7 @@ body {
 }
 
 .navbar {
+    
     background-color: rgb(10, 1, 1);
     border-radius: 18px;
 
