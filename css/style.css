@@ -74,4 +74,28 @@ header{
     padding: 3px 20px;
 
 }
+body{
+    margin: 0;
+}
+#footer {
+display: flex;
+padding: 0;
+margin: 0;
+justify-content: center;
+align-items: center;
+background-color: rgb(0, 66, 37);
+color: white;
+}
+img{
+height: 20px;
+width: 20px;
+padding-left: 30px;
+cursor: pointer;
+}
+a{
+padding: 5px;
+text-decoration: none;
+color: white;
+}
+
 
