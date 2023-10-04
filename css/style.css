@@ -383,9 +383,15 @@ a {
 
 .contact .row form .inputBox input{
     width: 100%;
+    border: solid 2px white;
     padding:2rem;
     font-size: 1.7rem;
     color:#fff;
     text-transform: none;
     background:none;
+}
+
+.btn{
+    height: 56px;
+    width: 70px;
 }
