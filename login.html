@@ -144,12 +144,30 @@ button:hover{
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password">
       
-        <button><a href="http://127.0.0.1:5500/strom_CAFFEIENE_NERDS/index.html">Log-in</a></button>
+        <button onclick="changeLinkText()">Log-in</button>
+        <a href="index.html">Continue</a>
         <div class="social">
           <div class="go"><i class="fab fa-google"></i> Google</div>
           <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
         </div>
       </form>
     </body>
+    <script>
+      function changeLinkText() {
+            var linkElement = document.getElementById("myLink"); // Replace "myLink" with the actual id of your <a> tag
+            if (linkElement) {
+                linkElement.innerHTML = "New Link Text"; // Replace "New Link Text" with the desired content
+            }
+        }
+    
+    function changeLinkText() {
+      var linkElement = document.getElementById(change); // Replace "myLink" with the actual id of your <a> tag
+      if (linkElement) {
+          linkElement.innerHTML = Logged-In // Replace "New Link Text" with the desired content
+      }
+  }
+</script>
+      
+    
 
 </html>
