@@ -412,3 +412,16 @@ h2{
   font-size: 1.5em;
   
 }
+
+#btn2{
+    /* position: relative; */
+    height: 45px;
+    width: 200px;
+    border: 0;
+    border-radius: 8px;
+    background-color:#D6CC99;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+
+}
